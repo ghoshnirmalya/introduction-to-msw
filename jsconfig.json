@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "pages/*": ["pages/*"],
+      "mocks/*": ["mocks/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

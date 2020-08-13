@@ -1,15 +1,20 @@
 {
   "name": "introduction-to-msw",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "author": "nirmalya.email@gmail.com",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "next": "9.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "msw": "^0.20.5"
   }
 }

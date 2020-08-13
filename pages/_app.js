@@ -1,7 +1,9 @@
-import '../styles/globals.css'
-
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+if (process.env.NODE_ENV === "development") {
+  require("mocks");
 }
 
-export default MyApp
+const App = ({ Component, pageProps }) => {
+  return <Component {...pageProps} />;
+};
+
+export default App;
