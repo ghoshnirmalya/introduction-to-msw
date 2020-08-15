@@ -4,7 +4,8 @@
     "baseUrl": ".",
     "paths": {
       "pages/*": ["pages/*"],
-      "mocks/*": ["mocks/*"]
+      "mocks/*": ["mocks/*"],
+      "data/*": ["data/*"],
     }
   },
   "exclude": [
