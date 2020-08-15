@@ -166,6 +166,7 @@ const Home = ({ users = [] }) => {
             rightIcon="arrow-forward"
             variantColor="purple"
             onClick={handleSaveMessage}
+            isDisabled={!message.trim()}
             isLoading={savingMessage}
           >
             Send
