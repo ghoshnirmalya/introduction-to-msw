@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "test": "cypress open"
   },
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
@@ -19,6 +20,8 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^6.0.0",
+    "cypress": "^4.12.1",
     "msw": "^0.20.5"
   }
 }

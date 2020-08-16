@@ -85,6 +85,7 @@ const Home = ({ users = [] }) => {
           return (
             <Box
               key={user.id}
+              data-test-id="user"
               p={4}
               onClick={() => handleFetchMessages(user.id)}
               role="button"
@@ -135,7 +136,14 @@ const Home = ({ users = [] }) => {
         <Stack spacing={4} m={4}>
           {messages.map((message) => {
             return (
-              <Box key={message.id} p={4} bg="white" rounded="md" shadow="sm">
+              <Box
+                key={message.id}
+                p={4}
+                bg="white"
+                rounded="md"
+                shadow="sm"
+                data-test-id="message"
+              >
                 {message.message}
               </Box>
             );
