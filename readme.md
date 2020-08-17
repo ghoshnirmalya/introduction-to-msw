@@ -18,6 +18,7 @@ This is a sample application built using [Mock Service Worker](https://mswjs.io/
   - [1. **Clone the application**](#1-clone-the-application)
   - [2. **Install the dependencies**](#2-install-the-dependencies)
   - [3. **Start the application**](#3-start-the-application)
+- [Testing](#testing)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
