@@ -1,5 +1,7 @@
 context("Cypress Tests", () => {
   beforeEach(() => {
+    // This will ensure that Cypress always visits our development server
+    // before running any tests
     cy.visit("http://localhost:3000/");
   });
 
